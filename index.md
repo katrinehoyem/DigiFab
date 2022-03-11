@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Velkommen til Katrines DigFab side
 
 You can use the [editor on GitHub](https://github.com/katrinehoyem/DigiFab/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
