@@ -58,9 +58,23 @@
                 Dette prosjektet var inspirert av et annet prosjekt, men det meste er designet selv og deler er byttet ut slik at det ble en motor og ikke servo, og raspberry pi og ikke en Wemos D1 Mini.
                  <a href="https://www.instructables.com/Aquassist-DIY-Automatic-Fish-Feeder-With-Companion/">link til inspirasjonen:</a>
                 Ideen var at du skal kunne gi raspberry pi et tidspunkt inn i koden for å så at den da dytter mat ut til fiskene en gang om dagen til det gitte punktet.
-                Selve ideen var å bruke en servo, men dette ble da byttet til en motor siden det ikke var noen 360grader servo på makerspace. Motoren snurrer og er festet til en skrue som heter akremedes skrue som da dytter maten ut i enden.
+                Selve ideen var å bruke en servo, men dette ble da byttet til en motor siden det ikke var noen 360grader servo på makerspace. Motoren snurrer og er festet til en skrue som heter "achrimedes screw" som da dytter maten ut i enden.
             </p>
+            <h3>Archimedes Screw</h3>
+            <p>Arkimedes skruen er en spiral på sylinder laget av matematikeren Arkimedes. som er laget for å transportere vann oppover. I dette prosjektet bruker vi den til å dytte mat bort over fra matlageret og ned til vannet.</p>
+            <img src="images/Archimedes_screw.jpg" alt="Arkimedes skrue orginal"> 
+            <p>
+                I min modell har jeg først designet et tannhjul separat med den ferdige skruen. Skruen er også endret slik at det er plass til mutter inn i skruen som holder skruen fast.
+                Nærbilde av skruen og hvor hjullageret skal sitte.
+                Grunnen til jeg ikke ville designe skruen selv er at dette er en oppfinnelse allerede er oppfunnet og fungerer slik den skal.
 
+            </p>
+            <img src="images/arkimedes skruehull.png" alt="Nærbilde av skruen">
+            <img src="images/arkimedes skrue.png" alt="Hele skruen">
+
+            <h3>Kode</h3> 
+            <p>Koden er laget ganske enkelt. Man skriver selv inn hvilket tidspunkt man vil at fiskene skal få mat. Etter det skal den selv kjøre og gi mat en gang om dagen.
+                Dokumentasjon av hovedelementene: <a href ="https://schedule.readthedocs.io/en/stable/"  >https://schedule.readthedocs.io/en/stable/</a> <a href="https://docs.python.org/3/library/time.html">https://docs.python.org/3/library/time.html</a></p>
         </div>
     </div>
 
