@@ -50,7 +50,7 @@
     <!-- Main -->
     <div id="main">
         <div class="inner">
-            <h1>AUTOMATISK FISKEMAT MATER HALLO</h1>
+            <h1>AUTOMATISK FISKEMAT MATER </h1>
             <h2><a href="https://github.com/katrinehoyem/DigiFab">LINK TIL GITHUB</a></h2>
             <span class="image main"><img src="images/pic13.jpg" alt="" /></span>
             <h3>Introduksjon om selve prosjektet</h3>
@@ -68,10 +68,11 @@
                 I min modell har jeg først designet et tannhjul separat med den ferdige skruen. Skruen er også endret slik at det er plass til mutter inn i skruen som holder skruen fast.
                 Nærbilde av skruen og hvor hjullageret skal sitte.
                 Grunnen til jeg ikke ville designe skruen selv er at dette er en oppfinnelse allerede er oppfunnet og fungerer slik den skal.
-
+                Tannhjulet som er satt på toppen av skruen er laget av Fusion 360 sin egen spur gear funksjon (bilde er kun for visning, ikke riktige dimensjoner)
             </p>
             <img src="images/arkimedes skruehull.png" alt="Nærbilde av skruen">
             <img src="images/arkimedes skrue.png" alt="Hele skruen">
+            <img src="images/skjermbildespur.png" alt="spur">
 
             <h3>Kode</h3> 
             <p>Koden er laget ganske enkelt. Man skriver selv inn hvilket tidspunkt man vil at fiskene skal få mat. Etter det skal den selv kjøre og gi mat en gang om dagen.
@@ -80,14 +81,33 @@
                 <img src="images/kode.jpg" alt="Kode">
             <h3>Oppkobling</h3>
             <p>Ved oppkobling har jeg prøvd å vært så simpel som mulig for å bruke minst mulig plass og ressurser.
-                Oppkoblingen er en signal kabel som går fra motoren til
+                Oppkoblingen er en ermitter kabel som går fra motoren til kollektoren igjennom en diode som gjør at strømmen kun går en vei
                 Svart går direkte til ground. 
                 Signal kabelen går igjennom transistoren (B331) i midten til GPIO24.
                 
+                
                 </p>
-                <img src="images/oppkobling.jpg" alt="oppkobling">
-                <img src="images/bilderpi.jpg" alt="raspberry pie">
-                <img src="images/transistor.jpg" alt="transistor">
+                <img src="images/oppkobling.jpg" alt="oppkobling" style="width:500px;height:600px;">
+                <img src="images/bilderpi.jpg" alt="raspberry pie" style="width:500px;height:600px;">
+                <img src="images/transistor.jpg" alt="transistor" style="width:500px;height:600px;">
+            <h3>3D printede deler</h3>
+                <p>På 3D printede deler har jeg laget alle delene fra bunn bortsett fra skruen og pyramiden og toppen som maten ligger inne i.
+                    Alt er laget i Fusion 360 og alle delene bortsett fra skruen med tannhjulet er printet med en Prusa printer MK3 i PLA med 15% infill.
+                    Grunnen til de er laget fra bunn av er at jeg ville ha de like store som til raspberry pi og en motor. Det er også drillet hull i bodyen som raspberry pi og skruen ligger i da man trenger eget hull siden man har et ekstra tannhjul da for å gjøre motoren sterkere og tregere.
+                    Jeg trengte ekstra styrke for å få dyttet skruen rundt.
+                    </p>
+                <img src="images/skjermbildebody.png" alt="sliceing i prusa" style="width:500px;height:600px;">
+                <img src="images/skjermbildecapogmat.png" alt="slicing i prusa" style="width:500px;height:600px;">
+            <h3>HVORFOR DET IKKE FUNKER</h3>
+            <p>Grunnen til dette prosjektet ikke fungerer er at skruen med tannhjulet knakk flere ganger. Og med ultimaker ble PLA taggene på tannhjulet ble for små og de knakk for lette sammen med nye tannhjulet.
+                Det ble også prøvd å printe tannhjul separat for å lime på et nytt separat skrue også uten hell.
+                Skulle jeg gjort igjen ville jeg hatt litt mer erfaring med tannhjul og hvordan disse funker, også hvordan størrelse på tannhjul spiller sammen med krefter. 
+                </p>
+            <source src="videos/videohvorforikkefunke.mp4" type="video/mp4">
+            <source src="videos/videomkodeogtid.mp4" type="video/mp4">
+            <img src="images/bildehvorforikkefunke.jpg">
+
+
                 
 
         </div>
